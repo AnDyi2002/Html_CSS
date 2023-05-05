@@ -1,0 +1,27 @@
+.header{
+    color: blue;
+    font-size: 40px;
+}
+#header{
+    font-size: 45px;
+    flex: auto;
+    color: blueviolet;
+    }
+
+    .italic {
+        font-size: 21px;
+        color: green;
+    }
+
+    .head {
+        color: blue;
+        font-size: 30px;
+    }
+
+        .list {
+    font-size: 20px;
+    }
+        .sup {
+    font-size: 40px;
+    color: blue;
+    }
