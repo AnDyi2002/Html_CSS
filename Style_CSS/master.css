@@ -3,9 +3,30 @@
     font-size: 40px;
 }
 #header{
-    font-size: 45px;
-    flex: auto;
-    color: blueviolet;
+    color: white;
+    background-image: url(../Style_CSS/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 30px 150px 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-style: oblique;
+    font-size: 20px;
+    position: relative;
+    }
+    
+
+    #header div span {
+        position: absolute;
+        font-size: 150px;
+        top: 30px;
+    }
+
+    p {
+        font-size: 25px;
+        color: black;
     }
 
     .italic {
@@ -14,14 +35,40 @@
     }
 
     .head {
-        color: blue;
-        font-size: 30px;
+        color: red;
+        font-size: 40px;
+    }
+
+    .head:hover{
+        transform: rotate(-360deg);
+        transition-duration: 1000ms;
     }
 
         .list {
-    font-size: 20px;
+    font-size: 25px;
     }
         .sup {
     font-size: 40px;
-    color: blue;
+    color: yellow;
     }
+
+    .accounts {
+        font-style: oblique;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icons {
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .skills {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
