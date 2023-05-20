@@ -1,12 +1,21 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-* {
-    margin: 0;
+:root {
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    margin-top: -16px
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
 
 .sidebar {
@@ -16,6 +25,7 @@ body {
     height: 100%;
     background-color: #2196F3;
     text-align: center;
+    display: block;
 }
 
 .photo {
@@ -47,6 +57,15 @@ body {
     border-top: 1px solid rgba(255, 255, 255, .1);
     border-bottom: 1px solid black;
     transition: .3s;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul li:hover a {
@@ -55,4 +74,19 @@ ul li:hover a {
 
 .sidebar ul a i {
     margin-right: 15px;
+}
+
+.right_section {
+    background-image: url(../Html_projects/imgs/myphoto.png);
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    padding-top: 6%;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 28px;
+}
+
+.article {
+    font-size: 35px;
+    margin-right: 50%;
 }
