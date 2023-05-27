@@ -1,14 +1,25 @@
 
+<<<<<<< HEAD
+=======
+* {
+    padding: 0;
+    margin: 0px
+}
+
+
+>>>>>>> 30b2393e71741e68b88fa727f09e8c37970fa8c3
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
@@ -75,12 +86,32 @@ ul li:hover a {
 }
 
 .right_section {
+
+    margin-left: 300px;
     background-image: url(../Html_projects/imgs/myphoto.png);
+<<<<<<< HEAD
     background-repeat: no-repeat;
+=======
+>>>>>>> 30b2393e71741e68b88fa727f09e8c37970fa8c3
     background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+.right_section .article {
     color: aliceblue;
+<<<<<<< HEAD
     margin-top: -23px;
     margin-left: 295px;
+=======
+    font-size: 28px;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 322px;
+
+>>>>>>> 30b2393e71741e68b88fa727f09e8c37970fa8c3
 }
 
 #Home {
