@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-
-<html>
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Personal Page</title>
-        <meta   name="Description" 
-                content="This is MY Personal Page & All you want to know about ME " />
-        <link rel="stylesheet" href="../Style_CSS/master.css">
-            </head>
-
-        <!--
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta   name="Description" 
+            content="This is MY Personal Page & All you want to know about ME " />
+            <link rel="stylesheet" href="../Style_CSS/master.css">
+    <title>Book Store</title>
+</head>
+    <!--
             paragraph elemnts:
             b => Bold
             strong => Bold => important text
@@ -43,95 +41,70 @@
             value => start
         -->
 
-    <body>
+<body>
+    <nav>Links</nav>
+    <div>
+        <h1>Hello,</h1>
+        <p>This Is Our <b>Book store</b></p>
+    </div>
 
-        <div id="header">
-            <div><span>𝒹𝑒𝓋𝑒𝓁𝑜𝓅𝑒𝓇</span> </div>
+    <form method="post" target="_blank" >
+        <div>
+            <label for="user">Username</label>
+            <input type="text" name="username" id="user" placeholder="Enter Eour Username" required>
         </div>
-        <b class="header">Personal Information About Me: </b>
-        
-            <p>
-            <i class="italic">Family is our greatest weakness But it's also our greatest strength</i>
-            </p>
-            <p>Dreams without goals, Are just dreams and ultimately they fuel disappointment, 
-                on the road To achieving your dreams 
-                You must apply discipline But more importantly consistency
-            Because without commitment You'll never start
-        but without consistency You'll never finish.</p>
-            <h2 class="head">MY Info</h2>
-            <p>My Name Is: <b>Andrew Wageh</b></p>
-            <p>Iam <strong>Available</strong> For Hire</p>
-                <p>My old price per hour: <del>$10</del> Now for <mark>$5</mark></p>
+                <br>
+                <div>
+                    <label for="mob">Mobile</label>
+                    <input id="mob" type="number" required 
+                    placeholder="Phone number" name="phone num">
+                </div>
+                <br>
+                <div>
+                    <label for="em">Email"</label>
+                    <input id="em" type="email" placeholder="Your Email" name="email acc">
+                </div>
+                <br>
+                <div>
+                    <label for="sub">Subject</label>
+                    <input id="sub" type="text" placeholder="subject" name="sub">
+                </div>
+                <br>
+                <div>
+                    <input id="win" type="radio" name="os" value="windows" checked>
+                    <label for="win">Windows</label>
+                </div>
+                <div>
+                    <input id="mac" type="radio" name="os" value="Mac">
+                    <label for="mac">Mac</label> 
+                </div>
+                <div>
+                    <input id="lin" type="radio" name="os" value="Linux">
+                    <label for="lin">Linux</label>
+                </div> 
+                <br>
 
-                <div class="accounts">
-                <h2 class="head">Here Is My accounts</h2></div>
-        <div class="icons"><p>
-            <a href="https://github.com/AnDyi2002" target="_blank" title="My github Acount">
-                <img src="imgs/icons/Github.gif" alt="github icon" width="50px" height="50px">
-            </a>
-                    <a href="mailto:andrewwageh56@yahoo.com" title="my mail" target="_blank">
-                        <img src="imgs/icons/Mail.gif" alt="Mail" width="50px" height="50px">
-                    </a>
-                    <a href="https://www.linkedin.com/in/andrew-wageh-172479262/" title="linkedin account" target="_blank">
-                        <img src="imgs/icons/Linkedin.gif" alt="linkedin icon" width="50px" height="50px">
-                    </a> 
-        </p></div>
-        <div class="skills"><b class="head">Here Is My Skills</b></div>
-        <ul class="list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Python</li>
-        </ul>
-
-        <!--
-            thead
-            tbody
-            tfoot
-            tr= table row 
-            td= table data cell
-            th= header cell
-        -->
-        <table border="1">
-            <caption>My Marks</caption>
-            <thead>
-                <tr>
-                    <th>Year</th>
-                    <th>Group</th>
-                    <th>Language</th>
-                    <th>Done</th>
-                    <th>Passed</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="5">2022</td>
-                    <td rowspan="2">Elzero</td>
-                    <td>HTML</td>
-                    <td colspan="2">Yes</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td colspan="2">YES</td>
-                </tr>
-                <tr>
-                    <td rowspan="3">Heroes</td>
-                    <td>JS</td>
-                    <td>Yes</td>
-                    <td>No</td> 
-                </tr>
-                <tr>
-                    <td>PHP</td>
-                    <td colspan="2">Yes</td> 
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td>No</td>
-                    <td>No</td>
-                </tr>
-                
-            </tbody>
-        </table>
-    </body>
-
+                <label for="book">Choose Book</label>
+                <select name="book" id="book">
+                    <optgroup label="sience fiction">
+                        <option value="1">Harrypotter</option>
+                        <option value="2">Romantic</option>
+                        <option value="3">strategy</option>
+                    </optgroup>
+                    <optgroup label="Real stories">
+                        <option value="4">book sharlock</option>
+                        <option value="5">piaretes</option>
+                        <option value="6">black panther</option>
+                    </optgroup>
+                </select>
+                <br>
+                <div><pre>
+<button type="reset">Empty form</button>  <button type="submit">Send data</button>
+                    </pre>
+                </div>
+                <textarea name="subject" id="" cols="40" rows="20" 
+                placeholder="Text"></textarea>
+                </form>
+    
+</body>
 </html>
