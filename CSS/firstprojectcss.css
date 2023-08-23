@@ -1,6 +1,7 @@
 nav {    
     background-color: aqua;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 nav ul li {
@@ -10,4 +11,3 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
-
