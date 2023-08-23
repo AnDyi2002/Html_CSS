@@ -1,0 +1,13 @@
+nav {    
+    background-color: aqua;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
