@@ -1,22 +1,29 @@
-nav {    
-    background-color: aqua;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 20px;
-    padding: 5px;
+* {
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+nav {    
+    background-color:aqua;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 5px;
+    word-spacing: 25px;
+}
+
 
 nav ul li {
     display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 nav ul li a {
     text-decoration: none;
+    color: black;
 }
-
-h1 {
-    background-color: aquamarine;
-    text-align: center;
+nav ul li a:hover {
+    color: white;
 }
 
 .productone,
@@ -40,18 +47,34 @@ h1 {
     background-color: #eee;
     float: left;
     width: 23.75%;
-    margin-left: 1%;
+    margin-left: 5%;
+    margin-right: 4%;
 }
-
 
 span { 
     background-color: aqua;
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+    margin-left: 40px;
+    left: 120px;
+    width: 84.85%;
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
+}
+
+button {
+    color: black;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+button:hover {
+    color: white;
+    border-color: white;
 }
