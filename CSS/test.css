@@ -1,0 +1,47 @@
+/*
+div {
+    background-color: #EEEEEE;
+    width: 400px;
+    margin: 40px auto;
+    font-size: 20px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F44336 #03A9F4;
+    position: relative;
+}
+div span {
+    display: block;
+    width: 30px;
+    background-color: #03A9F4;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+.top-left,
+.bottom-left { 
+    border-right: 2px solid #F44336;
+}
+.top-right,
+.bottom-right {
+    border-left: 2px solid #F44336;
+}
+.top-left {
+    top: -13px;
+    left: -17px;
+}
+.bottom-left { 
+    bottom: -12px;
+    left: -17px;
+}
+.top-right { 
+    top: -13px;
+    right: -17px;
+}
+.bottom-right { 
+    bottom: -12px;
+    right: -17px;
+}
+*/
+
+
