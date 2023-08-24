@@ -2,6 +2,8 @@ nav {
     background-color: aqua;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 20px;
+    padding: 5px;
 }
 
 nav ul li {
@@ -10,4 +12,46 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+}
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.productone,
+.producttwo,
+.productthree, 
+.productfour,
+.productfive,
+.productsix,
+.productseven,
+.producteight,
+.productnine,
+.productten,
+.producteleven ,
+.producttweleve
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: 23.75%;
+    margin-left: 1%;
+}
+
+
+span { 
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
